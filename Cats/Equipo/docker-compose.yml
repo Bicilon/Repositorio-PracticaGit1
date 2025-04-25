@@ -26,6 +26,11 @@ santiago_cuevas:
       context: ./Steve
       dockerfile: Dockerfile
     container_name: mi-imagen-steve
-   
+
+  Luis:
+    build:
+      context: ./Equipo/Bicilon
+      container_name: bicilon-container
+
  networks:
       - default
